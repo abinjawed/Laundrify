@@ -1,5 +1,5 @@
 # Laundrify
-Employee Self-Service Portal for a Laundromat
+Employee Self-Service Portal for Laundromats.
 
 ### Install
 
