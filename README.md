@@ -35,7 +35,9 @@ e. Install on C Drive.
 
 ### Run
 If you do not wish to install XAMPP to store form data on your hard drive, you may opt for `demo.html` instead, which
-stores customer data in **Local Storage** > **file://** of the console's **Application** Tab.
+stores customer data in **Local Storage** > **file://** of the console's **Application** Tab. Another neat feature of this
+is the console log sends a warning that a new customer object was added; this is just another way to test if the script
+executed properly.
 
 ### Data
 The form data is stored a `SQL` database, which will be in your hard drive.
