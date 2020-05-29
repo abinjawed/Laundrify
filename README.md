@@ -16,15 +16,18 @@ c. Click on "Installing on Windows"
         
 d. Click on XAMPP
             
-e. Install on C:
+e. Install on C Drive.
                                             
-**Step Two**: After installing XAMPP go to the following directory in the C:
+
+**Step Two**: After installing XAMPP go to the following directory in the C Drive:
 
  xampp > htdocs
 
 ... next, create the folder containing the `pickupdropoff.html` and `insert.php` files.
 
+
 **Step Three**: Launch XAMPP and choose `Apache` and `MySQL` to Start.
+
 
 **Step Four**: Open a browser, type in "localhost," which will direct you to the XAMPP Apache dashboard. Select phpMyAdmin.
 
