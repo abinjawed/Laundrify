@@ -34,10 +34,12 @@ e. Install on C Drive.
 ### Code
 
 ### Run
-If you do not wish to install XAMPP to store form data of Pick-up & Drop-off, you may run the `demo.html` page instead, which
+If you do not wish to install XAMPP to store form data into your hard drive, you may opt for `demo.html` instead, which
 stores customer data in Local Storage of the console's **Application** Tab.
 
 ### Data
+The form data is stored a `SQL` database, which will be in your hard drive.
+
 **Step One**: we create our database in `phpMyAdmin` and call it **customers**.
 
 **Step Two**: we create a table with 6 columns called **information** in the database **customers**.
