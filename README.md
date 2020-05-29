@@ -36,11 +36,11 @@ e. Install on C Drive.
 ### Run
 
 ### Data
-Step One: we create our database in `phpMyAdmin` and call it **customers**.
+**Step One**: we create our database in `phpMyAdmin` and call it **customers**.
 
-Step Two: we create our table in customers and call it **information** with 6 columns.
+**Step Two**: we create a table with 6 columns called **information** in the database **customers**.
 
-Note: the column called **id** is checked for A.I (Auto Increment).
+*Note*: the column called **id** is checked for A.I (Auto Increment).
 
-Step Three: we submit a form, and see in our `SQL` table that a new customer was added
+**Step Three**: we submit a form, and see in our `SQL` table that a new customer was added
 to the **information** table inside the **customers** database.
