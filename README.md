@@ -42,6 +42,8 @@ stores customer data in **Local Storage** > **file://** of the console's **Appli
 is the console log sends a warning that a new customer object was added; this is just another way to test if the script
 executed properly.
 
+The pages `fetch.html` and `pickupdropoff.html` are only accessible through local hosting via `Apache` and `MySQL`.
+
 ### Data
 The form data is stored a `SQL` database, which will be in your hard drive.
 
