@@ -31,6 +31,9 @@ e. Install on C Drive.
 
 **Step Four**: Open a browser, type in "localhost," which will direct you to the XAMPP Apache dashboard. Select phpMyAdmin.
 
+**Step Five** Go to https://getbootstrap.com/docs/4.3/getting-started/download/ to download the bootstrap of compiled CSS and JavaScript.
+
+
 ### Code
 
 ### Run
