@@ -20,11 +20,9 @@ e. Install on C:
                                             
 **Step Two**: After installing XAMPP go to the following directory in the C:
 
-a. xampp
+ xampp > htdocs
 
-b. htdocs
-
-c. create the folder containing the `pickupdropoff.html` and `insert.php` files.
+... next, create the folder containing the `pickupdropoff.html` and `insert.php` files.
 
 **Step Three**: Launch XAMPP and choose `Apache` and `MySQL` to Start.
 
