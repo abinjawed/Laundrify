@@ -3,7 +3,11 @@ is collected from a local host.
 
 Solution / Workaround: 2 Options:
 
-1) Download each bootstrap component and reference them internally as files in the htdocs directory.
+1) Download each bootstrap component and reference them internally as files in the htdocs directory, for example:
+
+<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+
+<script src="bootstrap/js/dataTables.bootstrap4.min.js"></script>
 
 2) Forego the bootstrap components... instead, script the minimal table structures in the php files. 
 It may not contain the fancy, responsive features, (column sorting - ascend/descend, filter, search bar, pages in increments of 10 rows),
