@@ -1,0 +1,10 @@
+
+Solution / Workaround: Dev Tools
+
+Press F12, 
+         > Settings
+                  > Preferences
+                              > click on checkbox for "Selected Context Only"
+ 
+
+Note: The caveat for this approach is it's not sticky and it must be selected every time you open Dev Tools.
