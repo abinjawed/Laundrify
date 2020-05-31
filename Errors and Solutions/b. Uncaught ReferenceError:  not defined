@@ -1,0 +1,10 @@
+Basically, the CDN links for the bootstraps, Data Tables and jQuery won't execute if the data 
+is collected from a local host.
+
+Solution / Workaround: 2 Options:
+
+1) Download each bootstrap component and reference them internally as files in the htdocs directory.
+
+2) Forego the bootstrap components... instead, script the minimal table structures in the php files. 
+It may not contain the fancy, responsive features, (column sorting - ascend/descend, filter, search bar, pages in increments of 10 rows),
+but you will eliminate dependencies that behave differently on data stored on a hard drive vs local host or local storage.
