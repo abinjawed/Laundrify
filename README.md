@@ -35,6 +35,8 @@ e. Install on C Drive.
 
 Also, go to https://getbootstrap.com/docs/4.5/getting-started/introduction/ for the Bootstrap CDN.
 
+Finally, go to https://jquery.com/download/ for the jQuery file.
+
 ### Code
 
 ### Run
