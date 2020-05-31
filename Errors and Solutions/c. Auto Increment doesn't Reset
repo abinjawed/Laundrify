@@ -1,0 +1,12 @@
+
+Whenever records are deleted from their respective table, the Auto Increment number will not reset.
+
+To reset the auto increment number, use **truncate tablename; **this removes all the records and resets
+the auto increment back to 1.
+
+Step One: open phpMyAdmin, then open the desired table.
+Step Two: navigate to: Operations -> Table Options.
+Step Three: reset the **AUTO_INCREMENT **field to desired value.
+Step Four: save.
+
+Next time a new record is inserted, they will start from the auto increment number as set in Step Three.
