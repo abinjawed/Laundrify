@@ -31,7 +31,9 @@ e. Install on C Drive.
 
 **Step Four**: Open a browser, type in "localhost," which will direct you to the XAMPP Apache dashboard. Select phpMyAdmin.
 
-**Step Five** Go to https://cdn.datatables.net/ to download the DataTables CDN and https://getbootstrap.com/docs/4.5/getting-started/introduction/ for the Bootstrap CDN.
+**Step Five** Go to https://cdn.datatables.net/ to download the DataTables CDN.
+
+Also, go to https://getbootstrap.com/docs/4.5/getting-started/introduction/ for the Bootstrap CDN.
 
 ### Code
 
