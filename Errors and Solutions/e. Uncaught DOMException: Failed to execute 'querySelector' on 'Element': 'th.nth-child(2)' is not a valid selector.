@@ -1,0 +1,3 @@
+On the html page, the ids should start with a letter... at least with HTML4; with HTML5, the ids may be numbers.
+
+If you are using HTML4, you may either change the ids to start with letters or switch to HTML5.
