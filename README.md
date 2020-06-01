@@ -2,10 +2,6 @@
 Employee Self-Service Portal for Laundromats.
 
 ### Install
-The client-side programming language is `JavaScript`. 
-
-The server-side programming languages are `PHP` and `SQL`, which are packaged in `XAMPP`.
-
 **Step One**: go to https://www.phpmyadmin.net/
                                             
 a.Click on "Support" Tab on top of page
