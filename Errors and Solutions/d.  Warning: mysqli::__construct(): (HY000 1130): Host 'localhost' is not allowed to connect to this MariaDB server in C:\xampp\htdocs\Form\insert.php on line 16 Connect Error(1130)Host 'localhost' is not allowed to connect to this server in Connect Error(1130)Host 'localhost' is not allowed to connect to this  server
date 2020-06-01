@@ -1,3 +1,0 @@
-
-Warning: mysqli::__construct(): (HY000/1130): Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\Form\insert.php on line 16
-Connect Error(1130)Host 'localhost' is not allowed to connect to this  server
