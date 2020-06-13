@@ -1,9 +1,10 @@
 
-/*dropdown bar*/
+/*navigation bar*/
 .navbar {
   overflow: hidden;
-  background-color: blue;
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #ffffff 0%, #0000ff 100%);
+  font-family: monospace, sans-serif;
+  border-bottom: 4px solid #9593bf;
 }
 
 .navbar a {
@@ -15,60 +16,19 @@
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
+.navbar a:hover {
+  background: linear-gradient(to top, #66ccff 0%, #0000ff 100%);
 }
 
 .show {
   display: block;
-}
 
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-weight: bold;
     color: white;
-    background-image: url("images/clothespins.png");
+    /*background-image: url("images/clothespins.png");*/
     background-size: cover;
   }
 
@@ -81,6 +41,7 @@ body{
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
     box-sizing: border-box;
+    font-weight: bold;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
   }

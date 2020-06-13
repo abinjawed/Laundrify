@@ -1,0 +1,30 @@
+
+/*The Data Table*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #403b3b;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: lrft;
+      }
+
+th {
+  background-color: #696e6c;
+  color: white;
+    }
+
+td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+        }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+        }
+
+.center{
+	text-align:center;
+}
