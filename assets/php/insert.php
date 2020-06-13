@@ -25,6 +25,9 @@ if (!empty($customername) || !empty($phonenumber) || !empty($homeaddress) || !em
     $stmt->bind_param("sisss", $customername, $phonenumber, $homeaddress, $emailaddress, $delivery);
     $stmt->execute();
     echo "New customer record inserted successfully";
+    echo '<p><a href="javascript:history.go ( -1); Location.reload ()" title="Return to the previous page">&laquo; Go back</a></p>';
+    exit;
+
     }
     $stmt->close();
     $conn->close();
