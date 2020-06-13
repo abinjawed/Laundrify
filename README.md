@@ -19,7 +19,7 @@ e. Install on C Drive.
 
  xampp > htdocs
 
-... next, create the folder containing the `pickupdropoff.html` and `insert.php` files.
+... next, create the folder containing the `form.html` and `insert.php` files.
 
 
 **Step Three**: Launch XAMPP and choose `Apache` and `MySQL` to Start.
@@ -36,7 +36,7 @@ stores customer data in **Local Storage** > **file://** of the console's **Appli
 is the console log sends a warning that a new customer object was added; this is just another way to test if the script
 executed properly.
 
-The pages `fetch.html` and `pickupdropoff.html` are only accessible through local hosting via `Apache` and `MySQL`.
+The pages `data.html` and `form.html` are only accessible through local hosting via `Apache` and `MySQL`.
 
 ### Data
 The form data is stored a `SQL` database, which will be in your hard drive.
