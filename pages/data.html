@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer History</title>
+  <meta charset="UTF-8">
+  <title>Fetch API</title>
+
+  <link rel="stylesheet" href="assets/css/datastyles.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <a href='index.html'>Home</a>
+  </div>
+
+  <div class="container">
+    <div class="row" style="margin-top: 50px">
+      <div class="col-md-6 col-md-offset-3">
+		<p class="center"> Number items per pages:
+			<select name="recordsPerPage" id="recordsPerPage" onChange="loadData();">
+				<option value="5">5</option>
+				<option value="10">10</option>
+				<option value="20">20</option>
+				<option value="50">50</option>
+			</select>
+			<p id="pages" class="center">Pages: <a href="#" OnClick="changePage(-1);">previous</a> <a href="#" OnClick="changePage(1);">next</a></p>
+		</p>
+
+
+        <table>
+          <thead>
+			<tr>
+				<th>ID <a id="td_id" href="#" OnClick="changeOrder('id',-1);">&#8599;</a></th>
+				<th>Name<a href="#" id="td_name" OnClick="changeOrder('name',1);">&#8600;</a></th>
+				<th>Phone Number <a href="#" id="td_phone" OnClick="changeOrder('phone',1);">&#8600;</a></th>
+				<th>Home Address<a href="#" id="td_address" OnClick="changeOrder('address',1);">&#8600;</a></th>
+				<th>Email Address <a href="#" id="td_email" OnClick="changeOrder('email',1);">&#8600;</a></th>
+				<th>Delivery<a id="td_delivery" href="#" OnClick="changeOrder('delivery',1);">&#8600;</a></th>
+			</tr>
+			<tr>
+				<th><input type="text" id="id"/></th>
+				<th><input type="text" id="name"/></th>
+				<th><input type="text" id="phone"/></th>
+				<th><input type="text" id="address"/></th>
+				<th><input type="text" id="email"/></th>
+				<th><input type="text" id="delivery"/></th>
+			</tr>
+          </thead>
+		  <tbody class="tbody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!--Main JS Script-->
+  <script src="assets/js/datascript.js"></script>
+
+</body>
+</html>
