@@ -1,0 +1,11 @@
+It's possible you might be mixing mysql and mysqli.
+
+This error is raised because mysql_* functions are completely removed from PHP 7, 
+it previously got deprecated in PHP 5.5, but now it is completely removed.
+
+Possible Solutions:
+
+-Use MySQLi or PDO
+-Connecting to Mysql with the Pdo Object Is Pretty Straight Forward
+-Connecting to MySQL with MySqli Connection Object
+-Rollback to Older PHP 5, update your code to mysqli or PDO and then upgrade to PHP7
