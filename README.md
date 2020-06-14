@@ -39,7 +39,7 @@ The pages `data.html` and `form.html` are only accessible through local hosting 
 ### Data
 The form data is stored a `SQL` database, which will be in your hard drive.
 
-The example data and its structure can be demonstrated under `information.` The database name is *customers*, and the table
+The example data and its structure can be demonstrated under `information.sql`. The database name is *customers*, and the table
 is named *information*.
 
 **Step One**: we create our database in `phpMyAdmin` and call it **customers**.
